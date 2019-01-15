@@ -1,0 +1,14 @@
+package com.io.insurance.ClientData.models;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+public class InsuranceResponse {
+    private int code;
+    private String message;
+    private List<Insurance> payload;
+}
